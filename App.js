@@ -74,7 +74,6 @@ export default function App() {
   // render the interface
   return (
     <View style={styles.container}>
-      <Text>This is Malaika's new app! (She is the best)</Text>
       {!!prediction && currentImageIndex !== false && ( // only show if these conditions are true
         <View>
           <Image
